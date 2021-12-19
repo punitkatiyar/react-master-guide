@@ -4,4 +4,8 @@
 A JavaScript library for building user interfaces &#127942;
 </pre>
 
+> Declarative
+
+> Component-Based
+
 
