@@ -28,6 +28,7 @@ A JavaScript library for building user interfaces &#127942;
 ### Install React
 
 <pre>
+npm install -g create-react-app
 npx create-react-app my-app
 cd my-app
 npm start
