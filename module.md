@@ -37,6 +37,10 @@ npm start
 <a href="root.js">React Index File</a>
 
 ### Import export
+<pre>
+"use strict";
+ReactDOM.render( /*#__PURE__*/React.createElement("h1", null, "Welcome to react App"), document.getElementById('root'));
+</pre>
 
 
 
