@@ -1,0 +1,8 @@
+*{ margin: 0; padding: 0;}
+header{ background-color: royalblue;}
+header h1{ padding: 1%; color: white;}
+nav{ background-color: tomato;}
+nav ul{ padding: 1%;}
+nav ul li{ display: inline;}
+nav ul li a{ padding: 1%; text-decoration: none; color: white;}
+.mid{ width: 90%; margin: auto; min-height: 70vh; background-color: whitesmoke; border: 1px solid black; margin-top: 10px;}
