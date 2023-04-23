@@ -14,21 +14,35 @@ const Home = () => {
                   </ul>
               </nav>
           </header>
-      
-      
       </>
   )
 }
 export default Home;
+///////////////////////////////////////////////////////////////////////////////
+import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from './Home'
+import Page from './Page'
+import Post from './Post'
+import Profile from './Profile'
 
-<BrowserRouter>
+function App() {
+  return (
+    <>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/page" element={<Page/>}/>
           <Route path="/post" element={<Post/>}/>
           <Route path="/profile" element={<Profile/>}/>
         </Routes>
-</BrowserRouter>
+      </BrowserRouter>
+    </>
+  );
+}
+
+export default App;
+
 
 
 
