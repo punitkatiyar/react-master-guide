@@ -42,6 +42,14 @@ npm start
 ReactDOM.render( /*#__PURE__*/React.createElement("h1", null, "Welcome to react App"), document.getElementById('root'));
 </pre>
 
+# Short Code
+
+> rfc
+
+> rafc
+
+
+
 > https://medium.com/@alimubashar74/react-native-what-is-the-difference-between-functional-and-class-components-25b4920c1686
 
 
