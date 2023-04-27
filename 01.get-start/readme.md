@@ -1,5 +1,10 @@
 # Get Start React App
 
-> setup app
+> Install React App
 
-> sirectory structure
+> Directory structure
+
+> Package
+
+> Module
+
