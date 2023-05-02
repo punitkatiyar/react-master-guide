@@ -1,15 +1,8 @@
 import React from 'react'
-
 function FunctionClick() {
-
-    function clickHandlear()
-    {
-        console.log("Test");
+    function clickHandlear(){
+    console.log("Test");
     }
-
-
-
-
     return (
     <>
             <div>FunctionClick</div>
@@ -17,5 +10,4 @@ function FunctionClick() {
     </>
   )
 }
-
 export default FunctionClick
