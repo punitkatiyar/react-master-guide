@@ -1,6 +1,6 @@
 # Conditional randling
 
-> id and else
+> If and else
 
 > Element Variable
 
