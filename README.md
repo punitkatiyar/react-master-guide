@@ -10,6 +10,23 @@
 
 - **JSX:** React uses a syntax extension called JSX, which allows you to write HTML-like code within your JavaScript files.
 
+## JSX
+
+**javaScript**
+
+```
+const element = React.createElement(
+  'h1',
+  { className: 'greeting' },
+  'Hello, world!'
+);
+```
+
+
+
+
+
+
 ## module 1
 
 1. Hello World
