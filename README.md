@@ -14,7 +14,9 @@
 
 - **JSX (JavaScript XML)** is a syntax extension used in React to describe the structure of user interface components in a more concise and intuitive way. It allows you to write HTML-like code directly in your JavaScript files, which is then transformed into JavaScript objects by the transpiler (such as Babel) before it's run by the browser.
 
-**javaScript**
+**In other words, JSX is a way to write React components using a syntax that closely resembles HTML. For example, instead of writing:**
+
+
 
 ```
 const element = React.createElement(
@@ -23,6 +25,17 @@ const element = React.createElement(
   'Hello, world!'
 );
 ```
+**You can write the same thing using JSX like this:**
+
+```
+const element = <h1 className="greeting">Hello, world!</h1>;
+```
+
+- In this example, the JSX code is transformed into the same React.createElement call that we wrote before.
+
+- JSX allows you to easily compose complex UI components using a familiar syntax. It also allows you to use JavaScript expressions within the markup, which enables dynamic and data-driven rendering of UI components.
+
+- While JSX is not required to use React, it has become a widely adopted convention within the React community because of its many benefits
 
 
 
@@ -43,17 +56,6 @@ const element = React.createElement(
 10. Lifting State Up
 11. Composition vs Inheritance
 12. Thinking In React
-
-### Install Node First https://nodejs.org/en/
-
-### Install React
-
-<pre>
-npm install -g create-react-app
-npx create-react-app my-app
-cd my-app
-npm start
-</pre>
 
 <a href="root.js">React Index File</a>
 
