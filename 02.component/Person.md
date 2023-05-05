@@ -83,3 +83,39 @@ function Person(props) {
 export default Person
 
 ```
+
+## Array With Map Example 3
+
+```
+import React from 'react'
+import Profile from './Profile';
+function Person(props) {
+    const persons = [
+        {
+            sid: 1,
+            sname: 'Deep Singh',
+            scourse: 'Full Stack Java'
+        },
+        {
+            sid: 2,
+            sname: 'Punit Katiyar',
+            scourse: 'Full Stack PHP'
+        },
+        {
+            sid: 3,
+            sname: 'Gaurav Tomer',
+            scourse: 'Full Stack Python'
+        },
+        {
+            sid: 4,
+            sname: 'Manoj Sir',
+            scourse: 'Management'
+        }
+    ];
+    const PersonList = persons.map(person => (<Profile person={person}><button>Button</button></Profile>) )    
+    return (
+            <div>{PersonList }</div>    
+  )
+}
+export default Person
+```
