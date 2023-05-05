@@ -119,3 +119,19 @@ function Person(props) {
 }
 export default Person
 ```
+
+
+## Profile Component 
+
+```
+import React from 'react'
+function Profile({ person }) {
+  return (
+      <div>
+          {<h1>{person.sname} Course {person.scourse }</h1> }
+      </div>
+  )
+}
+
+export default Profile
+```
