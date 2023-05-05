@@ -137,5 +137,7 @@ export default Profile
 ```
 
 <hr>
+
 ### runtime.js:7  Warning: Each child in a list should have a unique "key" prop.
+
 <hr>
