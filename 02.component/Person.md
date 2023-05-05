@@ -32,9 +32,9 @@ function Person(props) {
     </>
   )
 }
-export default Person
+export default Person 1
 ```
-## Array With Map Method example
+## Array With Map Method example 1
 
 ```
 import React from 'react'
@@ -46,4 +46,40 @@ function Person(props) {
   )
 }
 export default Person
+```
+
+## Array With Map Example 2
+
+```
+import React from 'react'
+function Person(props) {
+    const persons = [
+        {
+            sid: 1,
+            sname: 'Deep Singh',
+            scourse: 'Full Stack Java'
+        },
+        {
+            sid: 2,
+            sname: 'Punit Katiyar',
+            scourse: 'Full Stack PHP'
+        },
+        {
+            sid: 3,
+            sname: 'Gaurav Tomer',
+            scourse: 'Full Stack Python'
+        },
+        {
+            sid: 4,
+            sname: 'Manoj Sir',
+            scourse: 'Management'
+        }
+    ];
+    const PersonList = persons.map(person => (<h1>Welcome {person.sname} your Course {person.scourse }</h1>) )    
+    return (
+            <div>{PersonList }</div>    
+  )
+}
+export default Person
+
 ```
