@@ -3,7 +3,7 @@
 3. Style Modules .
 4. CSS in Js Libaries.
 
-## CSS Stylesheet
+## CSS Stylesheet Component 
 
 ```
 import React from 'react'
