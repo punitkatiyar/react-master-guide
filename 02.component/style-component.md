@@ -8,16 +8,13 @@
 ```
 import React from 'react'
 import './style.css'
-
 function Stylesheet(props) {
     let className = props.logo ? 'logo':'';
   return (
-      <h1 className={ className}>Stylesheet</h1>
+      <h1 className={ `${className} fs`}>Stylesheet</h1>
   )
 }
-
 export default Stylesheet
-
 ```
 <hr>
 
