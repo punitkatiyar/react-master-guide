@@ -34,3 +34,16 @@ function Person(props) {
 }
 export default Person
 ```
+## Array With Map Method example
+
+```
+import React from 'react'
+function Person(props) {
+    const user = ["Punit", "Tech Punit", "Rohit"];
+    const userList=user.map(name => <h1>Welcome {name}</h1>)
+    return (
+            <div>{userList }</div>    
+  )
+}
+export default Person
+```
