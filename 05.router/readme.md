@@ -53,3 +53,21 @@ const Header = () => {
 }
 export default Header;
 ```
+
+## Home Component
+
+```
+import React from 'react'
+import Header from './Header';
+import { Outlet } from 'react-router-dom';
+const Home = () => {
+  return (
+      <>
+          <Header />
+          <Outlet />
+          
+      </>
+  )
+}
+export default Home;
+```
