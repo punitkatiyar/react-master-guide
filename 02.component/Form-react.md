@@ -1,5 +1,13 @@
 # React Form 
 
+>  value={this.state.user}
+
+> onChange={this.handelUserName}
+
+> onSubmit={this.handleSubmit}
+
+
+
 ```
 import React, { Component } from 'react'
 
