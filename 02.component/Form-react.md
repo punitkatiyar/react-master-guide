@@ -1,12 +1,14 @@
 # React Form 
 
+<hr>
+
 >  value={this.state.user}
 
 > onChange={this.handelUserName}
 
 > onSubmit={this.handleSubmit}
 
-
+<hr>
 
 ```
 import React, { Component } from 'react'
