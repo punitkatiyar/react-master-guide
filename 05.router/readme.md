@@ -29,3 +29,27 @@ function App() {
 }
 export default App;
 ```
+
+## Header Component
+
+```
+import {NavLink } from 'react-router-dom'
+const Header = () => {
+  return (
+      <>
+          <header>
+              <a href="home">Logo</a>
+              <nav>
+                  <ul>
+                      <li><NavLink to="/">Home</NavLink></li>
+                      <li><NavLink to="/page">Page</NavLink></li>
+                      <li><NavLink to="/post">Post</NavLink></li>
+                      <li><NavLink to="/profile">Profile</NavLink></li>
+                  </ul>
+              </nav>
+          </header>
+      </>
+  )
+}
+export default Header;
+```
