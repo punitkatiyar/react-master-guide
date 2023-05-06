@@ -2,14 +2,30 @@
 
 > npm install react-router-dom@6
 
+## App Component 
 
-<pre>
-< BrowserRouter>
-  < Routes>
-    < Route path="/" element={< h1>This is Home</h1>} />
-    < Route path="/page" element={< h1>This is Page</h1>} />
-    < Route path="/post" element={< h1>This is Post</h1>} />
-    < Route path="/profile" element={< h1>This is Profile</h1> } />
-   < /Routes>
-< /BrowserRouter>
-</pre>
+```
+import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from './Home'
+import Page from './Page'
+import Post from './Post'
+import Profile from './Profile'
+function App() {
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home/>}>
+          <Route path="/page" element={<Page/>}/>
+          <Route path="/post" element={<Post/>}/>
+          <Route path="/profile" element={<Profile />} />
+          <Route path="*" element={<h1>Page Not Found</h1>}/>
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+}
+export default App;
+```
