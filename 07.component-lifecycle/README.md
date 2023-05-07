@@ -10,7 +10,7 @@
 
 > componentDidMount
 
-- **Updating**  when a component is being re-render as a result of change to either its prop or state.
+## 2.Updating when a component is being re-render as a result of change to either its prop or state.
 
 > static getDerivedStateFromProps
 
@@ -22,11 +22,11 @@
 
 > comonentDidUpdate
 
-- **Unmounting** when a compnent being removed from the dom.
+## 3.Unmounting when a compnent being removed from the dom.
 
 > componentWillUnmount
 
-- **Error Handling** when there is an error during rendering in a lifecycle method or in the constructor of any child component.
+## 4.Error Handling when there is an error during rendering in a lifecycle method or in the constructor of any child component.
 
 > static getDerivedStateFromError
 
