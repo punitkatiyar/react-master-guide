@@ -56,13 +56,24 @@
 
 - [ ] Do not cause side effects Ex. HTTP Requests calling the setState method 
  
-
-
 ### render
 
-### getSnapshotBeforeUpdate
+### getSnapshotBeforeUpdate(PrevProps,prevState)
 
-### comonentDidUpdate
+> called right before the changes form the virtual DOM are to be reflected in the DOM
+
+> Capture some information from the DOM
+
+> Method will either return null or return a value.
+
+> Return value will be passed as the third parameter to the next method
+
+### comonentDidUpdate(prevProps , prevState , snapshot)
+
+> called after the render is finished in the re-render cycle
+
+> cause side iffects
+
 
 ## 3.Unmounting when a compnent being removed from the dom.
 
