@@ -1,6 +1,6 @@
 # Lifecycle Methods 
 
-## Mounting :  when an instance of a component is being create and inserted into the DOM.
+## 1. Mounting :  when an instance of a component is being create and inserted into the DOM.
 
 > constructor
 
