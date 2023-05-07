@@ -26,7 +26,7 @@
 
 > Read props and state and return JSX
 
-> Do not change state or intract with DOM or make ajax calls
+> [] Do not change state or intract with DOM or make ajax calls
 
 > clildren component lifecycle methods are also executed
 
@@ -36,17 +36,33 @@
 
 > Cause side effects. Ex. Intract With the DOM or perform any ajax calls to load data.
 
+<hr>
+
 ## 2.Updating when a component is being re-render as a result of change to either its prop or state.
 
-> static getDerivedStateFromProps
+### static getDerivedStateFromProps (props,state)
 
-> shouldComponentUpdate
+> When the state of the component depends on changes in prop over time
 
-> render
+> set the state
 
-> getSnapshotBeforeUpdate
+ > [] Do not cause side effects Ex. HTTP Requests
 
-> comonentDidUpdate
+### shouldComponentUpdate (nextProps , nextState)
+
+> Dictates if the component should re-render or not 
+
+> performance optimization
+
+> [] Do not cause side effects Ex. HTTP Requests calling the setState method 
+ 
+
+
+### render
+
+### getSnapshotBeforeUpdate
+
+### comonentDidUpdate
 
 ## 3.Unmounting when a compnent being removed from the dom.
 
