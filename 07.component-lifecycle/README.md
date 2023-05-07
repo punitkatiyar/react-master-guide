@@ -14,9 +14,27 @@
 
 ### static getDerivedStateFromProps
 
+> When the state of the component depends on changes in prop over time
+
+> set the state
+
+ > Do not cause side effects Ex. HTTP Requests
+
 ### render
 
+> Only required Method
+
+> Read props and state and return JSX
+
+> Do not change state or intract with DOM or make ajax calls
+
+> clildren component lifecycle methods are also executed
+
 ### componentDidMount
+
+> invoked immediately after a component and all its children components have been rendered the DOM
+
+> Cause side effects. Ex. Intract With the DOM or perform any ajax calls to load data.
 
 ## 2.Updating when a component is being re-render as a result of change to either its prop or state.
 
