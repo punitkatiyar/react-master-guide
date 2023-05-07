@@ -4,11 +4,19 @@
 
 ### constructor
 
-> static getDerivedStateFromProps
+> A special function that will get called whenever a component is created
 
-> render
+>  initializing state binding the event handling
 
-> componentDidMount
+> Do not cause side effects Ex. HTTP Requests
+
+> super (props) Directly overwrite this.state
+
+### static getDerivedStateFromProps
+
+### render
+
+### componentDidMount
 
 ## 2.Updating when a component is being re-render as a result of change to either its prop or state.
 
