@@ -8,7 +8,7 @@
 
 >  initializing state binding the event handling
 
-> Do not cause side effects Ex. HTTP Requests
+> [ ]Do not cause side effects Ex. HTTP Requests
 
 > super (props) Directly overwrite this.state
 
