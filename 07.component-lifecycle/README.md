@@ -46,7 +46,7 @@
 
 > set the state
 
- - [] Do not cause side effects Ex. HTTP Requests
+ - [ ] Do not cause side effects Ex. HTTP Requests
 
 ### shouldComponentUpdate (nextProps , nextState)
 
@@ -54,7 +54,7 @@
 
 > performance optimization
 
-- [] Do not cause side effects Ex. HTTP Requests calling the setState method 
+- [ ] Do not cause side effects Ex. HTTP Requests calling the setState method 
  
 
 
