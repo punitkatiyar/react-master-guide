@@ -1,26 +1,8 @@
-
-### Install Node First https://nodejs.org/en/
-
-### Install React App On Local Machine 
+# Recat Syntax To Good Understand 
 
 ```
-npm install -g create-react-app
-or 
-npx create-react-app my-app
-cd my-app
-npm start
+function(state)= App View 
 ```
 
 
-
-
-# Get Start React App
-
-> Install React App
-
-> Directory structure
-
-> Package
-
-> Module
 
