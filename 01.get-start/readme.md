@@ -4,15 +4,21 @@
 function(state)= App View 
 ```
 
-## core in recat js
+## Core In Recat js
 
-> template in jsx
+> Template in jsx
 
 > state and props
 
 > event handling
 
 > Thinking in Component Based Articuture .
+
+## Template Engine 
+
+```
+{ write the javascript code }
+```
 
 
 
