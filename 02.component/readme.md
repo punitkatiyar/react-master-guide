@@ -10,7 +10,7 @@
 
 - class Component
 
-## React Function Component
+## React Function Component [ rfce ]
 
 ### **hello.js**
 ```
