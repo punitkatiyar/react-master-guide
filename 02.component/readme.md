@@ -4,6 +4,8 @@
 
 <!-- <img src="component.webp"> -->
 
-> function Component [ **rfce**, **rafce**]
+## React components can be of two types :
 
-> class Component
+- function Component
+
+- class Component
