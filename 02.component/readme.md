@@ -12,7 +12,6 @@
 
 ## React Function Component [ rfce ]
 
-### **hello.js**
 ```
 import React from 'react'
 function Hello() {
@@ -23,4 +22,17 @@ function Hello() {
 
 export default Hello
 
+```
+## React Arrow Function Conponent [ rafc ]
+
+```
+import React from 'react'
+
+const Hello = () => {
+  return (
+    <div>Hello</div>
+  )
+}
+
+export default Hello
 ```
