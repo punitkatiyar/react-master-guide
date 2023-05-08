@@ -2,6 +2,6 @@
 
 <img src="component.webp">
 
-> function Component 
+> function Component [ **rfce**, **rafce**]
 
 > class Component
