@@ -23,7 +23,7 @@ function Hello() {
 export default Hello
 
 ```
-## React Arrow Function Conponent [ rafc ]
+## React Arrow Function Conponent [ rafc ] [ rafce ]
 
 ```
 import React from 'react'
