@@ -18,6 +18,7 @@ function(state)= App View
 
 ```
 { write the javascript code }
+{ variable }
 ```
 
 
