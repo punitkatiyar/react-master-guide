@@ -1,8 +1,8 @@
 # Lifecycle Methods 
 
-## 1. Mounting :  when an instance of a component is being create and inserted into the DOM.
+# 1. Mounting :  when an instance of a component is being create and inserted into the DOM.
 
-### constructor
+## constructor
 
 > A special function that will get called whenever a component is created
 
@@ -12,7 +12,7 @@
 
 > super (props) Directly overwrite this.state
 
-### static getDerivedStateFromProps
+## static getDerivedStateFromProps
 
 > When the state of the component depends on changes in prop over time
 
@@ -20,7 +20,7 @@
 
 - [ ] Do not cause side effects Ex. HTTP Requests
 
-### render
+## render
 
 > Only required Method
 
@@ -30,7 +30,7 @@
 
 > clildren component lifecycle methods are also executed
 
-### componentDidMount
+## componentDidMount
 
 > invoked immediately after a component and all its children components have been rendered the DOM
 
@@ -38,9 +38,9 @@
 
 <hr>
 
-## 2.Updating when a component is being re-render as a result of change to either its prop or state.
+# 2.Updating when a component is being re-render as a result of change to either its prop or state.
 
-### static getDerivedStateFromProps (props,state)
+## static getDerivedStateFromProps (props,state)
 
 > When the state of the component depends on changes in prop over time
 
@@ -48,7 +48,7 @@
 
  - [ ] Do not cause side effects Ex. HTTP Requests
 
-### shouldComponentUpdate (nextProps , nextState)
+## shouldComponentUpdate (nextProps , nextState)
 
 > Dictates if the component should re-render or not 
 
@@ -56,9 +56,9 @@
 
 - [ ] Do not cause side effects Ex. HTTP Requests calling the setState method 
  
-### render
+## render
 
-### getSnapshotBeforeUpdate(PrevProps,prevState)
+## getSnapshotBeforeUpdate(PrevProps,prevState)
 
 > called right before the changes form the virtual DOM are to be reflected in the DOM
 
@@ -68,18 +68,18 @@
 
 > Return value will be passed as the third parameter to the next method
 
-### comonentDidUpdate(prevProps , prevState , snapshot)
+## comonentDidUpdate(prevProps , prevState , snapshot)
 
 > called after the render is finished in the re-render cycle
 
 > cause side iffects
 
 
-## 3.Unmounting when a compnent being removed from the dom.
+# 3.Unmounting when a compnent being removed from the dom.
 
 > componentWillUnmount
 
-## 4.Error Handling when there is an error during rendering in a lifecycle method or in the constructor of any child component.
+# 4.Error Handling when there is an error during rendering in a lifecycle method or in the constructor of any child component.
 
 > static getDerivedStateFromError
 
