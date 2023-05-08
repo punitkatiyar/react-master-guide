@@ -9,3 +9,17 @@
 - function Component
 
 - class Component
+
+## Recat Function Component
+
+```
+import React from 'react'
+
+function Hello() {
+  return (
+    <div>Hello</div>
+  )
+}
+
+export default Hello
+```
