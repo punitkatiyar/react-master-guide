@@ -1,10 +1,10 @@
-# Recat Syntax To Good Understand 
+# React Syntax To Good Understand 
 
 ```
 function(state)= App View 
 ```
 
-## Core In Recat js
+## Core In React js
 
 > Template in jsx
 
