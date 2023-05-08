@@ -10,11 +10,11 @@
 
 - class Component
 
-## Recat Function Component
+## React Function Component
 
+### **hello.js**
 ```
 import React from 'react'
-
 function Hello() {
   return (
     <div>Hello</div>
@@ -22,4 +22,5 @@ function Hello() {
 }
 
 export default Hello
+
 ```
