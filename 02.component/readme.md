@@ -10,6 +10,8 @@
 
 - class Component
 
+<hr>
+
 ## React Function Component [ rfce ]
 
 ```
@@ -35,4 +37,20 @@ const Hello = () => {
 }
 
 export default Hello
+```
+
+## React Class Component [ rcc ]
+
+```
+import React, { Component } from 'react'
+
+export default class Hello extends Component {
+  render() {
+    return (
+      <div>Hello</div>
+    )
+  }
+}
+
+
 ```
