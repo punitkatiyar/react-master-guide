@@ -34,24 +34,24 @@ export default Hello
 ```
 import React from 'react'
 import './style.css'
-function Stylesheet(props) {
+function Hello (props) {
     let className = props.logo ? 'logo':'';
   return (
       <h1 className={ `${className} fs`}>Stylesheet</h1>
   )
 }
-export default Stylesheet
+export default Hello
 ```
 <hr>
 
 ## App.js Component 
 
 ```
-import Stylesheet from "./Stylesheet";
+import Hello from "./Hello";
 function App() {
   return (
     <>
-      <Stylesheet logo={true} />
+      <Hello logo={true} />
     </>
   );
 }
