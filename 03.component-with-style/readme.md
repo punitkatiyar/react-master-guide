@@ -1,8 +1,5 @@
 #  Apply CSS In Recat Component .
 
-3. Style Modules .
-4. CSS in Js Libaries.
-
 ## Inline Style
 
 ```
@@ -29,7 +26,7 @@ export default Hello
 
 
 
-## CSS Stylesheet Component 
+## CSS Stylesheet Module Component 
 
 ```
 import React from 'react'
