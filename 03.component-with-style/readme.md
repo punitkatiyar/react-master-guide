@@ -1,7 +1,33 @@
-1. css stylesheet.
-2. inline Style.
+#  Apply CSS In Recat Component .
+
 3. Style Modules .
 4. CSS in Js Libaries.
+
+## Inline Style
+
+```
+import React from 'react'
+function Hello(props) {
+    const card = {
+        width: "30%",
+        height: "300px",
+        background: "royalblue",
+        float: "left",
+        margin:"1%"
+    }
+    const title = {
+        color:"white"
+    }
+    return (
+      <div style={card}>
+            <h1 style={ title}>{props.name} {props.user}</h1>
+      </div>      
+  )
+}
+export default Hello
+```
+
+
 
 ## CSS Stylesheet Component 
 
