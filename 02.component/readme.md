@@ -39,7 +39,7 @@ const Hello = () => {
 export default Hello
 ```
 
-## React Class Component [ rcc ]
+## React Class Component [ rcc ] [ rce ]
 
 ```
 import React, { Component } from 'react'
