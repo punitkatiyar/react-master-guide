@@ -1,6 +1,6 @@
 #  Apply CSS In Recat Component .
 
-## Inline Style
+## Inline Style ( Example 1 )
 
 ```
 import React from 'react'
@@ -26,7 +26,7 @@ export default Hello
 
 
 
-## CSS Stylesheet Module Component 
+## CSS Stylesheet Module Component ( Example 2 )
 
 ```
 import React from 'react'
