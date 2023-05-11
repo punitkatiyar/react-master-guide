@@ -18,16 +18,12 @@ class BuindEvent extends Component {
     //     })
     //     console.log(this);
     // }
-    
     // Class property as Arrow function
     clickHandler = () => {
         this.setState({
             msg:"Bye"
         })
     }
-
-
-
   render() {
     return (
         <div>
@@ -35,11 +31,8 @@ class BuindEvent extends Component {
             {/*<button onClick={this.clickHandler.bind(this)}>Buind One</button>*/}
             {/*<button onClick={()=>this.clickHandler()}>Buind Two </button>*/}
             <button onClick={this.clickHandler}>Buind Three Using constructor </button>
-        
-        
         </div>
     )
   }
 }
-
 export default BuindEvent
