@@ -4,6 +4,20 @@ Some of the most commonly used Hooks are:
 
 - useState: Allows you to add state to your functional components. The useState Hook returns an array with two elements: the current state value and a function to update the state.
 
+```
+import React, { useState } from 'react'
+function HookCounter() {
+    const[count,setCount]=useState(0)
+    return (
+        <div>
+            <h1>HookCounter { count }</h1>
+            <button onClick={()=>setCount(count + 1)}>Click </button>
+        </div>
+    )
+}
+export default HookCounter
+```
+
 - useEffect: Allows you to perform side effects in your components, such as fetching data or subscribing to events. The useEffect Hook takes a function as its argument, which will be called after every render.
 
 - useContext: Allows you to access context in your components. Context provides a way to pass data through the component tree without having to pass props down manually at every level.
