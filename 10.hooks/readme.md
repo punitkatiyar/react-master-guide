@@ -4,6 +4,8 @@ Some of the most commonly used Hooks are:
 
 - useState: Allows you to add state to your functional components. The useState Hook returns an array with two elements: the current state value and a function to update the state.
 
+<hr>
+
 ```
 import React, { useState } from 'react'
 function HookCounter() {
@@ -17,6 +19,8 @@ function HookCounter() {
 }
 export default HookCounter
 ```
+
+<hr>
 
 - useEffect: Allows you to perform side effects in your components, such as fetching data or subscribing to events. The useEffect Hook takes a function as its argument, which will be called after every render.
 
