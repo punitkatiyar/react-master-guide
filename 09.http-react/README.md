@@ -8,7 +8,7 @@ npm install axios
 
 https://jsonplaceholder.typicode.com/
 
-## 2. Create Class Component  ArticleList for get Request
+## 2. Create Class Component  ArticleList
 
 ```
 import axios from 'axios'
