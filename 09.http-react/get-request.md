@@ -1,4 +1,4 @@
-## 2. Create Class Component  ArticleList for get Request
+# get Request using Axioc
 
 ```
 import axios from 'axios'
