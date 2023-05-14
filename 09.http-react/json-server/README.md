@@ -16,9 +16,11 @@
 
 ```
  "serve-json": "json-server --watch db.json"
+ "serve-json": "json-server --watch data.js --port 4000 "
+ 
 ```
 
-### 5. ru the server
+### 5. run the server
 
 ```
 npm run serve-json
