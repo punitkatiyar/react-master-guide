@@ -4,6 +4,8 @@
 
 **With JSON Server, you can create a server that serves static JSON data by creating a JSON file that contains your data and running the server with the json-server command. JSON Server will automatically create a REST API based on the data in your JSON file, with support for pagination, filtering, sorting, and more.**
 
+## How To Setup JSON Server
+
 ### 1. create a json file to store tha data
 
 ### 2. create a package
