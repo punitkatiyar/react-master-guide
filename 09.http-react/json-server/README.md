@@ -1,4 +1,4 @@
-# Crate Your Local JSON Server
+# Create Your Local JSON Server
 
 **JSON Server is a lightweight server that allows you to quickly create a REST API with a JSON file as a data source. It's useful for prototyping and front-end development, as it allows you to quickly create a fake API to work with before the real one is ready.**
 
