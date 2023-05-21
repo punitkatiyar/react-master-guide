@@ -1,3 +1,4 @@
+```
 import React, { useState, useMemo } from 'react'
 
 function Counter() {
@@ -32,3 +33,4 @@ function Counter() {
 }
 
 export default Counter
+```
