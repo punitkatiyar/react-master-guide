@@ -1,4 +1,4 @@
-<pre>
+```
 import React from 'react'
 
 const Home = () => {
@@ -43,7 +43,7 @@ function App() {
 }
 
 export default App;
-</pre>
+```
 
 
 
