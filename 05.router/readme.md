@@ -1,6 +1,6 @@
 # React Router
 
-> npm install react-router-dom@6
+> **npm install react-router-dom@6**
 
 ## App Component 
 
