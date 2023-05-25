@@ -14,13 +14,13 @@ import Profile from './Profile'
 function App() {
   return (
     <>
-      <BrowserRouter>
+     <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}>
-          <Route path="/page" element={<Page/>}/>
-          <Route path="/post" element={<Post/>}/>
-          <Route path="/profile" element={<Profile />} />
-          <Route path="*" element={<h1>Page Not Found</h1>}/>
+          <Route path="/page" element={<InsertData/>}/>
+          <Route path="/post" element={<ViewData/>}/>
+          <Route path="/profile" element={<DeleteData/>} />
+          <Route path="*" element={<h1>Page Not Found</h1>} />
           </Route>
         </Routes>
       </BrowserRouter>
