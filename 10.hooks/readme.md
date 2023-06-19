@@ -8,19 +8,7 @@ Some of the most commonly used Hooks are:
 
 <hr>
 
-```
-import React, { useState } from 'react'
-function HookCounter() {
-    const[count,setCount]=useState(0)
-    return (
-        <div>
-            <h1>HookCounter { count }</h1>
-            <button onClick={()=>setCount(count + 1)}>Click </button>
-        </div>
-    )
-}
-export default HookCounter
-```
+
 
 <hr>
 
