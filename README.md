@@ -20,7 +20,7 @@
 ### Install React App On Local Machine 
 
 ```
-npm install -g create-react-app
+npm init react-app my-app
 or 
 npx create-react-app my-app
 cd my-app
