@@ -4,7 +4,7 @@
 function(state)= App View 
 ```
 
-## React Need Some Ecmascript Feture To Update
+## ES6 Feture To Update Before Start React
 
 - Classes
 - Arrow Functions
