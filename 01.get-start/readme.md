@@ -4,6 +4,23 @@
 function(state)= App View 
 ```
 
+## React Need Some Ecmascript Feture To Update
+
+- Classes
+- Arrow Functions
+- Variables (let, const, var)
+- Array Methods like .map()
+- Destructuring
+- Modules
+- Ternary Operator
+- Spread Operator
+
+
+
+
+
+
+
 ## Core In React js
 
 > Template in jsx
