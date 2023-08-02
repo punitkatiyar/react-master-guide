@@ -16,7 +16,7 @@
 
 ```
  "serve-json": "json-server --watch db.json"
- "serve-json": "json-server --watch data.js --port 4000 "
+ "serve-json": "json-server --watch db.json --port 4000 "
  
 ```
 
