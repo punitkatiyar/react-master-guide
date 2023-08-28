@@ -5,3 +5,6 @@
 - Predictable
 - Centralized
 - Debuggable
+- Flexible
+
+  <hr>
