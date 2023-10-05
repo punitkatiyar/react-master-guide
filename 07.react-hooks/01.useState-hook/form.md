@@ -1,3 +1,4 @@
+```
 import React, { useState } from 'react'
 function FormDemo() {
     const [user,setUser]=useState({FirstName:'demo',LastName:"demo"})
@@ -24,3 +25,4 @@ function FormDemo() {
   )
 }
 export default FormDemo
+```
