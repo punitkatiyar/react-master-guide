@@ -1,4 +1,4 @@
-# node_modules\react-scripts\config
+# node_modules\react-scripts\config/webpackDevServer.config.js
 
 ## line number 112 to 133
 
