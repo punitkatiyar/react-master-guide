@@ -13,7 +13,12 @@
 
 <hr>
 
-https://jsonplaceholder.typicode.com/
+- https://jsonplaceholder.typicode.com/
+
+<hr>
+
+# Example For Fetch All Data
+
 <hr>
 
 ```
@@ -50,7 +55,7 @@ export default DataFetch
 
 <hr>
 
-# Example One For Search
+# Example For Search Data
 
 <hr>
 
