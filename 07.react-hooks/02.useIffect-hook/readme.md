@@ -8,7 +8,7 @@
 ## 1. install axios
 
 ```
-npm install axios
+## npm install axios
 ```
 
 <hr>
