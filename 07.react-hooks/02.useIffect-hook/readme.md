@@ -5,7 +5,7 @@
 
 ## Network Fetch with Axios
 
-## 1. install axios
+## 1. install axios using command
 
 
 > #### npm install axios
