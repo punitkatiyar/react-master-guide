@@ -1,5 +1,5 @@
 
-# useIffects Hook
+# use-Iffects Hook
 
 ```
 import axios from 'axios'
