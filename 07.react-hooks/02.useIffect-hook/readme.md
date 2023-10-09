@@ -1,6 +1,16 @@
 
 # use-Iffects Hook
 
+## Network Fetch Axios
+
+## 1. install axios
+
+```
+npm install axios
+```
+
+https://jsonplaceholder.typicode.com/
+
 ```
 import axios from 'axios'
 import React , { useState , useEffect} from 'react'
