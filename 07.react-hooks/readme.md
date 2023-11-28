@@ -23,3 +23,15 @@ Some of the most commonly used Hooks are:
 - useMemo: Allows you to memoize values in your components. This can be useful for optimizing performance in components that rely on expensive calculations or data fetching.
 
 By using Hooks, you can create more reusable and modular components, while also making your code easier to read and maintain.
+
+```
+<script>
+const numbersOne = [1, 2, 3];
+const numbersTwo = [4, 5, 6];
+const numbersCombined = [...numbersOne, ...numbersTwo];
+
+document.write(numbersCombined);
+</script>
+
+```
+
