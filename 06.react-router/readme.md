@@ -1,4 +1,6 @@
-# React Router
+# React With Router
+
+> **npx create-react-app blog-app**
 
 > **npm install react-router-dom@6**
 
