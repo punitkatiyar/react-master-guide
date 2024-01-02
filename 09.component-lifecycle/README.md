@@ -68,7 +68,7 @@
 
 > Return value will be passed as the third parameter to the next method
 
-## comonentDidUpdate(prevProps , prevState , snapshot)
+## componentDidUpdate(prevProps , prevState , snapshot)
 
 > called after the render is finished in the re-render cycle
 
