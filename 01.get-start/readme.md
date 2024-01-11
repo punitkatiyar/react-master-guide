@@ -38,5 +38,9 @@ function(state)= App View
 { variable }
 ```
 
+## update npm
+
+> npm install -g npm@latest
+
 
 
