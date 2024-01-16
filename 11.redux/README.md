@@ -12,7 +12,7 @@
   <hr>
 
   ```
-  // import redux from 'redux';
+import redux from 'redux';
 const redux = require('redux')
 const createStore = redux.createStore;
 
@@ -24,8 +24,7 @@ function buyCake() {
         info: "This is action"
     }
 }
-
-// (prevState,action)=> newState
+//(prevState,action)=> newState
 const initialState = {
     numOfCake: 10
 }
@@ -46,6 +45,4 @@ store.dispatch(buyCake());
 store.dispatch(buyCake());
 store.dispatch(buyCake());
 store.dispatch(buyCake());
-
-
-  ```
+```
