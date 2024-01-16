@@ -9,9 +9,7 @@
 - Debuggable
 - Flexible
 
-  <hr>
-
-  ```
+```
 import redux from 'redux';
 const redux = require('redux')
 const createStore = redux.createStore;
