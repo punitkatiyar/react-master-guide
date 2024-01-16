@@ -15,16 +15,14 @@
 import redux from 'redux';
 const redux = require('redux')
 const createStore = redux.createStore;
-
 const BUY_CAKE = 'BUY_CAKE';
-
 function buyCake() {
     return {
         type: BUY_CAKE,
         info: "This is action"
     }
 }
-//(prevState,action)=> newState
+(prevState,action)=> newState
 const initialState = {
     numOfCake: 10
 }
