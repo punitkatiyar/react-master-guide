@@ -26,6 +26,12 @@ npx create-react-app my-app
 cd my-app
 npm start
 ```
+
+### React Create using vite
+
+```
+npm create vite@latest
+```
 <hr>
 
 
