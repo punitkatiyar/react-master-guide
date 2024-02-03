@@ -1,4 +1,4 @@
-# <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" width="150"> 🥇 
+# <img src="https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK_400x400.png" width="150"> 🥇 
 
 ## What Is React ?
 
