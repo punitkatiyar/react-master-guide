@@ -1,6 +1,4 @@
-# React Master Guide 🥇
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png">
+# React Master Guide 🥇 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png">
 
 ## What Is React ?
 
