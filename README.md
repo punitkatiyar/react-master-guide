@@ -1,4 +1,4 @@
-# <img src="https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK_400x400.png" width="150"> 🥇 
+# <img src="https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK_400x400.png" width="100"> 🥇 
 
 ## What Is React ?
 
