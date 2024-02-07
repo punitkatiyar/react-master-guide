@@ -1,0 +1,22 @@
+{
+    "user": [
+        {
+            "id": "f889",
+            "firstName": "Ducat",
+            "lastName": "India",
+            "email": "hr@ducat.com"
+        },
+        {
+            "id": "79c2",
+            "firstName": "Ducat 123",
+            "lastName": "India 123",
+            "email": "hr123@ducat.com"
+        },
+        {
+            "id": "4fe7",
+            "firstName": "Punit",
+            "lastName": "Katiyar",
+            "email": "punit.kat@gmail.com"
+        }
+    ]
+}
