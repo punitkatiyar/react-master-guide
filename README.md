@@ -34,6 +34,8 @@ npm start
 
 ```
 npm create vite@latest
+
+npm run dev
 ```
 <hr>
 
