@@ -39,6 +39,10 @@ npm run dev
 ```
 <hr>
 
+## npm update
+
+> npm install -g npm@latest
+
 
 
 - **JSX (JavaScript XML)** is a syntax extension used in React to describe the structure of user interface components in a more concise and intuitive way. It allows you to write HTML-like code directly in your JavaScript files, which is then transformed into JavaScript objects by the transpiler (such as Babel) before it's run by the browser.
