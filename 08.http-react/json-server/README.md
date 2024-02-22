@@ -28,15 +28,15 @@ npm run serve-json
 
 ## JSON Routes
 
-> get
+> get request
 
-> post
+> post request
 
-> put
+> put request
 
-> patch
+> patch request
 
-> delete   
+> delete  request
 
 
 
