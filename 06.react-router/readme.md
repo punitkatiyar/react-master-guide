@@ -11,7 +11,7 @@
 
 ## React Router Dom Component
 
-> BrowserRouetr
+> BrowserRouter
 
 > Routes
 
