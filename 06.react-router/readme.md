@@ -9,6 +9,15 @@
 
 > **npm install react-router-dom@6**
 
+## React Router Dom Component
+
+> BrowserRouetr
+
+> Routes
+
+> Route
+  
+
 ## App Component 
 
 ```
