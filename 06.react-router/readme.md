@@ -91,3 +91,14 @@ const Home = () => {
 }
 export default Home;
 ```
+
+# react-router-hook
+
+```
+import {useNavigate} from 'react-router-dom'
+
+const navigate=useNavigate()
+
+<button onClick={()=>navigate('login')}>Click To Go</button>
+
+```
