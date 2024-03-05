@@ -19,6 +19,8 @@ function ExampleThree() {
             />
             <h1>{card.firstName}</h1>
             <h1>{card.lastName}</h1>
+            <hr/>
+            <h3>{ JSON.stringify(uname) }</h3>
         </div>
     )
 }
