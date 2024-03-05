@@ -8,6 +8,18 @@
   import React,{useState} from 'react'
   const [count,setCount]=useState(0)
 ```
+### Example Like And Dislike And Reset Counter
+
+> like
+
+> dislike
+
+> reset
+
+> superLike   
+
+
+
 
 ### Spread Operator (...)
 
