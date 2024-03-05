@@ -4,8 +4,10 @@
 
 <hr/>
 
-## Syntax of useState hook
+### Syntax of useState hook
 
 -  const [count,setCount]=useState(0)
 
-## Spread Operator (...)
+### Spread Operator (...)
+
+
