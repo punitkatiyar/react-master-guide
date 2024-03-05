@@ -10,7 +10,7 @@
 - Flexible
 
 ```
-import redux from 'redux';
+// import redux from 'redux';
 const redux = require('redux')
 const createStore = redux.createStore;
 const BUY_CAKE = 'BUY_CAKE';
@@ -20,7 +20,7 @@ function buyCake() {
         info: "This is action"
     }
 }
-(prevState,action)=> newState
+// (prevState,action)=> newState
 const initialState = {
     numOfCake: 10
 }
