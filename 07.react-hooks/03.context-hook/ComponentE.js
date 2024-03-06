@@ -1,7 +1,6 @@
 import React, {useContext } from 'react'
 import { UserContext,UserChanel } from '../App'
 
-
 function ComponentE() {
 
     const user = useContext(UserContext)
@@ -12,5 +11,4 @@ function ComponentE() {
       </div>
   )
 }
-
 export default ComponentE
