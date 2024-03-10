@@ -1,4 +1,4 @@
-# Redux 
+# Redux core and redux tool kit guide
 
 **Redux provides a predictable state container that helps developers manage the state of their applications in a more organized and centralized manner.**
 
