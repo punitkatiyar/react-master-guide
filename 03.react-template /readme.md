@@ -3,24 +3,21 @@
 ## Inline Style ( Example 1 )
 
 ```
-import React from 'react'
-function Hello(props) {
-    const card = {
-        width: "30%",
-        height: "300px",
-        background: "royalblue",
-        float: "left",
-        margin:"1%"
-    }
-    const title = {
-        color:"white"
+function Hello() {
+    let head = {
+        color: "white",
+        fontSize: "2rem",
+        padding: "2% 5%",
+        backgroundColor: "teal",
     }
     return (
-      <div style={card}>
-            <h1 style={ title}>{props.name} {props.user}</h1>
-      </div>      
-  )
+        <>
+            {/* <div style={{ color: "white", fontSize: "2rem", padding: "2% 5%", backgroundColor: "teal", marginBottom: "1vh" }}>Hello</div> */}
+            <div style={head}>Hello</div>
+        </>
+    )
 }
+
 export default Hello
 ```
 
