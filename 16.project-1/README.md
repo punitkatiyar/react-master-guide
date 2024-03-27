@@ -1,4 +1,63 @@
 ```
+# React CRUD App
+
+## C : create
+
+## R : read
+
+## U : update
+
+## D : delete
+
+# project setup
+
+> npx create-react-app crud-app
+
+> npm i react-router-dom@6
+
+> npm i bootstrap@5.3.3
+
+> npm i axios
+
+> npm install react-icons --save
+
+
+# Project Structure rafce
+
+> header + navigation
+
+> banner
+
+> mid
+
+> section
+
+> footer
+
+
+
+
+### Student Data
+
+> id
+
+> name
+
+> email
+
+> password
+
+> mobile
+
+> course
+
+
+
+
+
+```
+
+```
 Microsoft Windows [Version 10.0.19045.3930]
 (c) Microsoft Corporation. All rights reserved.
 
