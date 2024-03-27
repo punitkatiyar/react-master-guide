@@ -12,7 +12,7 @@ function Hello() {
     }
     return (
         <>
-            {/* <div style={{ color: "white", fontSize: "2rem", padding: "2% 5%", backgroundColor: "teal", marginBottom: "1vh" }}>Hello</div> */}
+            {/* <div style={{ color: "white", fontSize: "2rem", padding: "2% 5%" }}>Hello</div> */}
             <div style={head}>Hello</div>
         </>
     )
