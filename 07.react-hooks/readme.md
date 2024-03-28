@@ -4,13 +4,7 @@
 
 Some of the most commonly used Hooks are:
 
-> **useState:** Allows you to add state to your functional components. The useState Hook returns an array with two elements: the current state value and a function to update the state.
-
-<hr>
-
-
-
-<hr>
+- **useState:** Allows you to add state to your functional components. The useState Hook returns an array with two elements: the current state value and a function to update the state.
 
 - useEffect: Allows you to perform side effects in your components, such as fetching data or subscribing to events. The useEffect Hook takes a function as its argument, which will be called after every render.
 
