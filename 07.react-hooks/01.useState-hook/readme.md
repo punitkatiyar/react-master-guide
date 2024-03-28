@@ -23,4 +23,20 @@
 
 ### Spread Operator (...)
 
+## useState with form 
+
+
+
+### Example 2
+
+```
+<input
+  type="text"
+  placeholder='Enter First Name'
+  onChange={e => setCard({
+  ...card, firstName: e.target.value
+  })}
+/>
+```
+
 
