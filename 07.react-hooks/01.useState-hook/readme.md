@@ -25,9 +25,22 @@
 
 ## useState with form 
 
+### Example 1 
+
+```
+const handelInput = (e) => {
+  setUser(e.target.value)
+}
+
+<input
+  value={user}
+  onChange={handelInput}
+/>
+```
 
 
-### Example 2
+
+### Example 2 width object
 
 ```
 <input
