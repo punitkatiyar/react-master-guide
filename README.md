@@ -38,6 +38,7 @@ npm create vite@latest
 npm run dev
 ```
 <hr>
+
 ```
 C:\tech-unit\react-guide>npm create vite@latest
 Need to install the following packages:
@@ -87,7 +88,6 @@ h
   press c + enter to clear console
   press q + enter to quit
   ```
-
 
 <hr>
 
