@@ -38,6 +38,58 @@ npm create vite@latest
 npm run dev
 ```
 <hr>
+```
+C:\tech-unit\react-guide>npm create vite@latest
+Need to install the following packages:
+create-vite@5.2.3
+Ok to proceed? (y) y
+√ Project name: ... crud-app
+√ Select a framework: » React
+√ Select a variant: » JavaScript
+
+Scaffolding project in C:\tech-unit\react-guide\crud-app...
+
+Done. Now run:
+
+  cd crud-app
+  npm install
+  npm run dev
+
+
+C:\tech-unit\react-guide>cd crud-app
+
+C:\tech-unit\react-guide\crud-app>npm install
+
+added 278 packages, and audited 279 packages in 21s
+
+103 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\tech-unit\react-guide\crud-app>npm run dev
+
+> crud-app@0.0.0 dev
+> vite
+
+
+  VITE v5.2.7  ready in 250 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+h
+
+  Shortcuts
+  press r + enter to restart the server
+  press u + enter to show server url
+  press o + enter to open in browser
+  press c + enter to clear console
+  press q + enter to quit
+  ```
+
+
+<hr>
 
 ## npm update
 
