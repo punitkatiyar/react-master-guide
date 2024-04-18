@@ -8,7 +8,7 @@
 
 > render()
 
-> user define function
+> user define method
 
 ## React Class Component [ rcc ] [ rce ]
 
