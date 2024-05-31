@@ -43,6 +43,23 @@ const handelInput = (e) => {
 ### Example 2 width object
 
 ```
+```
+<script>
+const numbersOne = [1, 2, 3];
+const numbersTwo = [4, 5, 6];
+const numbersCombined = [...numbersOne, ...numbersTwo];
+
+document.write(numbersCombined);
+</script>
+
+```
+```
+
+<hr>
+
+
+
+```
 <input
   type="text"
   placeholder='Enter First Name'
