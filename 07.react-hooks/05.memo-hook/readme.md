@@ -23,13 +23,13 @@ function Counter() {
 
 	return (
 		<div>
-			<div>
-        <button onClick={incrementOne}>Count One - {counterOne}</button>
-        <span>{isEven ? 'Even' : 'Odd'}</span>
-			</div>
-			<div>
-        <button onClick={incrementTwo}>Count Two - {counterTwo}</button>
-			</div>
+		<div>
+        	<button onClick={incrementOne}>Count One - {counterOne}</button>
+        	<span>{isEven ? 'Even' : 'Odd'}</span>
+		</div>
+		<div>
+        	<button onClick={incrementTwo}>Count Two - {counterTwo}</button>
+		</div>
 		</div>
 	)
 }
