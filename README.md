@@ -1,4 +1,4 @@
-# <img src="https://media.licdn.com/dms/image/D5612AQFSPUPv4Gcv_A/article-cover_image-shrink_720_1280/0/1690548047583?e=2147483647&v=beta&t=Mx7u9dxwvUM_PjIzw0GfD9Tkzl4yC2Xoh6xZdO3SRXM" width="40"> 
+# <img src="https://media.licdn.com/dms/image/D5612AQFSPUPv4Gcv_A/article-cover_image-shrink_720_1280/0/1690548047583?e=2147483647&v=beta&t=Mx7u9dxwvUM_PjIzw0GfD9Tkzl4yC2Xoh6xZdO3SRXM" width="100%"> 
 
 # What Is React ?
 
