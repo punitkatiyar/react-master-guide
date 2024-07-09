@@ -32,6 +32,30 @@ const CounterComponent = () => {
 export default CounterComponent;
 ```
 
+### Example Two
+
+```
+import React, { useState, useEffect } from 'react';
+
+const Timer = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCount((prevCount) => prevCount + 1);
+    }, 1000);
+
+    // Cleanup function
+    return () => clearInterval(interval);
+  }, []); // Empty dependency array means this effect runs only once
+
+  return <div>Timer: {count} seconds</div>;
+};
+
+export default Timer;
+
+```
+
 ## Network Fetch with Axios
 
 ## 1. install axios using command
