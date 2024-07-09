@@ -9,6 +9,29 @@
 
 > an optional array of dependencies.
 
+# Example
+
+```
+import React, { useState, useEffect } from 'react';
+
+const CounterComponent = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    console.log(`Count has changed to: ${count}`);
+  }, [count]); // The effect runs only when 'count' changes
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  );
+};
+
+export default CounterComponent;
+```
+
 ## Network Fetch with Axios
 
 ## 1. install axios using command
