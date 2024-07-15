@@ -27,10 +27,12 @@
 ### Install React App On Local Machine 
 
 ```
-npm init react-app my-app
+npm init react-app tech-app
+cd tech-app
+npm start
 or 
-npx create-react-app my-app
-cd my-app
+npx create-react-app tech-app
+cd tech-app
 npm start
 ```
 
@@ -38,7 +40,8 @@ npm start
 
 ```
 npm create vite@latest
-
+cd tech-app 
+npm install
 npm run dev
 ```
 <hr>
