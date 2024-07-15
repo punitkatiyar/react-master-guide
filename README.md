@@ -12,7 +12,7 @@
 
 <hr>
 
-## How Setup React App For Web Development
+## setup React App On Local Machine 
 
 <hr>
 
@@ -21,8 +21,6 @@
 ### npm update
 
 > npm install -g npm@latest
-
-### Install React App On Local Machine 
 
 ```
 npm init react-app tech-app
