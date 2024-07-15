@@ -38,13 +38,10 @@ function(state)= App View
 ## Template Engine 
 
 ```
-{ write the javascript code }
 { variable }
 ```
 
-## update npm
 
-> npm install -g npm@latest
 
 
 
