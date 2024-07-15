@@ -20,6 +20,10 @@
 
 ### Install Node First https://nodejs.org/en/
 
+### npm update
+
+> npm install -g npm@latest
+
 ### Install React App On Local Machine 
 
 ```
@@ -91,9 +95,7 @@ h
 
 <hr>
 
-## npm update
 
-> npm install -g npm@latest
 
 
 
