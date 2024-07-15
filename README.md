@@ -14,8 +14,6 @@
 
 ## Setup React App On Local Machine 
 
-<hr>
-
 ### Install Node First https://nodejs.org/en/
 
 ### npm update
