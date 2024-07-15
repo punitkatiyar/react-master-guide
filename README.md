@@ -12,7 +12,7 @@
 
 <hr>
 
-## setup React App On Local Machine 
+## Setup React App On Local Machine 
 
 <hr>
 
@@ -22,17 +22,22 @@
 
 > npm install -g npm@latest
 
+
+### 1.method using npm
 ```
 npm init react-app tech-app
 cd tech-app
 npm start
-or 
+```
+### 2.method using npx
+
+```
 npx create-react-app tech-app
 cd tech-app
 npm start
 ```
 
-### React Create using vite
+### 3.method using npm  vite
 
 ```
 npm create vite@latest
