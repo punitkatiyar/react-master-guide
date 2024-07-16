@@ -6,11 +6,11 @@
 
 <!-- <img src="component.webp"> -->
 
-## React components can be of two types :
+## React components can be two types :
 
-- function Component
+> function Component
 
-- class Component
+> class Component
 
 <hr>
 
