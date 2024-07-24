@@ -22,7 +22,7 @@
 > NavLink   
   
 
-## App Component 
+## How to setup router 
 
 ```
       <BrowserRouter>
