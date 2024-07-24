@@ -25,31 +25,31 @@
 ## How to setup router 
 
 ```
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home/>}>
-          <Route path="/page" element={<InsertData/>}/>
-          <Route path="/post" element={<ViewData/>}/>
-          <Route path="/profile" element={<DeleteData/>} />
-          <Route path="*" element={<h1>Page Not Found</h1>} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home/>}>
+      <Route path="/page" element={<InsertData/>}/>
+      <Route path="/post" element={<ViewData/>}/>
+      <Route path="/profile" element={<DeleteData/>} />
+      <Route path="*" element={<h1>Page Not Found</h1>} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
 ```
 
-## Header Component
+## Creating link
 
 ```
 
-                  <ul>
-                      <li><NavLink to="/">Home</NavLink></li>
-                      <li><NavLink to="/page">Page</NavLink></li>
-                      <li><NavLink to="/post">Post</NavLink></li>
-                      <li><NavLink to="/profile">Profile</NavLink></li>
-                  </ul>
+  <ul>
+      <li><NavLink to="/">Home</NavLink></li>
+      <li><NavLink to="/page">Page</NavLink></li>
+      <li><NavLink to="/post">Post</NavLink></li>
+      <li><NavLink to="/profile">Profile</NavLink></li>
+  </ul>
 ```
 
-## Home Component
+## creating outlet 
 
 ```
 import React from 'react'
