@@ -9,6 +9,8 @@
 - Debuggable
 - Flexible
 
+## Core Redux Implimentation 
+
 ```
 // import redux from 'redux';
 const redux = require('redux')
@@ -42,3 +44,5 @@ store.dispatch(buyCake());
 store.dispatch(buyCake());
 store.dispatch(buyCake());
 ```
+
+## Redux Tool Kit
