@@ -77,3 +77,7 @@ const navigate=useNavigate()
 <button onClick={()=>navigate('login')}>Click To Go</button>
 
 ```
+
+# useParems Hook
+
+
