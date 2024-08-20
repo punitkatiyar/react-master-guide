@@ -1,5 +1,5 @@
 
-# use-Effects Hook
+# useEffects Hook
 
 **The useEffect hook is a fundamental part of React's functional component model. It allows you to perform side effects in your components, such as data fetching, DOM manipulation, and subscription management, after the component has rendered.**
 
