@@ -47,10 +47,6 @@ npm run dev
 
 - **JSX (JavaScript XML)** is a syntax extension used in React to describe the structure of user interface components in a more concise and intuitive way. It allows you to write HTML-like code directly in your JavaScript files, which is then transformed into JavaScript objects by the transpiler (such as Babel) before it's run by the browser.
 
-**In other words, JSX is a way to write React components using a syntax that closely resembles HTML. For example, instead of writing:**
-
-
-
 ```
 const element = React.createElement(
   'h1',
@@ -58,6 +54,7 @@ const element = React.createElement(
   'Hello, world!'
 );
 ```
+
 **You can write the same thing using JSX like this:**
 
 ```
