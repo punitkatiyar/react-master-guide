@@ -44,6 +44,11 @@ export default Hello
 ```
 ## ## {props.children}
 
+## Property Binding 
+
+
+**In React, property (or "prop") binding refers to passing data from a parent component to a child component via props. Props are immutable, meaning they cannot be changed by the child component. This is useful when you want to pass data or event handlers to child components.**
+
 <hr>
 
 # React Component
