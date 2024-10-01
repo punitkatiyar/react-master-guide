@@ -8,6 +8,17 @@
   import React,{useState} from 'react'
   const [count,setCount]=useState(0)
 ```
+
+- useState with primitive data type.
+
+- useState with Array
+
+- useState with Object
+
+
+
+
+
 ### Example Like And Dislike And Reset Counter
 
 > like
