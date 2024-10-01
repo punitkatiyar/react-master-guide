@@ -8,6 +8,7 @@
   import React,{useState} from 'react'
   const [count,setCount]=useState(0)
 ```
+<hr>
 
 - useState with primitive data type.
 
@@ -15,7 +16,7 @@
 
 - useState with Object
 
-
+<hr>
 
 
 
