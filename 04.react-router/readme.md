@@ -27,12 +27,11 @@
 ```
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home/>}>
+      <Route path="/" element={<Home/>}/>
       <Route path="/page" element={<InsertData/>}/>
       <Route path="/post" element={<ViewData/>}/>
       <Route path="/profile" element={<DeleteData/>} />
       <Route path="*" element={<h1>Page Not Found</h1>} />
-      </Route>
     </Routes>
   </BrowserRouter>
 ```
