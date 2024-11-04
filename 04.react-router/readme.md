@@ -5,7 +5,7 @@
 
 ## Setup React With Router
 
-> **npx create-react-app blog-app**
+> **npm create vite@latest**
 
 > **npm install react-router-dom@6**
 
