@@ -1,4 +1,4 @@
-# Redux core and redux tool kit guide
+# Redux terms and concepts 
 
 **Redux provides a predictable state container that helps developers manage the state of their applications in a more organized and centralized manner.**
 
@@ -45,4 +45,21 @@ store.dispatch(buyCake());
 store.dispatch(buyCake());
 ```
 
-## Redux Tool Kit
+# Redux Tool Kit
+
+- Simple
+
+- Opinionated
+
+- Powerful
+
+- Effective
+
+  https://redux-toolkit.js.org/
+
+
+
+
+
+
+
