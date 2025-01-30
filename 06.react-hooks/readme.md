@@ -4,28 +4,10 @@
 
 Some of the most commonly used Hooks are:
 
-- **useState:** Allows you to add state to your functional components. The useState Hook returns an array with two elements: the current state value and a function to update the state.
-
-- useEffect: Allows you to perform side effects in your components, such as fetching data or subscribing to events. The useEffect Hook takes a function as its argument, which will be called after every render.
-
-- useContext: Allows you to access context in your components. Context provides a way to pass data through the component tree without having to pass props down manually at every level.
-
-- useReducer: Allows you to manage complex state in your components. The useReducer Hook takes a reducer function and an initial state value as its arguments, and returns the current state value and a dispatch function.
-
-- useCallback: Allows you to memoize functions in your components. This can be useful for optimizing performance in components that rely on expensive calculations or data fetching.
-
-- useMemo: Allows you to memoize values in your components. This can be useful for optimizing performance in components that rely on expensive calculations or data fetching.
-
-By using Hooks, you can create more reusable and modular components, while also making your code easier to read and maintain.
-
-```
-<script>
-const numbersOne = [1, 2, 3];
-const numbersTwo = [4, 5, 6];
-const numbersCombined = [...numbersOne, ...numbersTwo];
-
-document.write(numbersCombined);
-</script>
-
-```
+- useState
+- useEffect
+- useContext
+- useReducer
+- useCallback
+- useMemo
 
