@@ -51,7 +51,7 @@ export default Hello
 
 <hr>
 
-# React Component
+# React class Component
 
 > class component
 
@@ -75,8 +75,6 @@ export default class Hello extends Component {
     )
   }
 }
-
-
 ```
 
 ## React class Component with props and state
@@ -105,10 +103,7 @@ export default class Welcome extends Component {
     )
   }
 }
-
 <Welcome test="Punit"/>
-
-
 ```
 
 
