@@ -1,10 +1,12 @@
 # Network Call In React ( Axios )
 
-## 1. install axios
+## setup axios on react app
 
 ```
 npm install axios
 ```
+
+
 
 https://jsonplaceholder.typicode.com/
 
