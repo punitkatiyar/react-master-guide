@@ -2,8 +2,6 @@
 
 **The useReducer hook is used in React to manage complex state and state transitions in a more predictable and manageable way. It is an alternative to using the useState hook for managing state, particularly when the state logic becomes more intricate.**
 
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
-
 ```
 import React, { useReducer } from 'react'
 const initialState = 0
@@ -33,4 +31,7 @@ function CounterOne() {
 export default CounterOne
 ```
 
+<hr>
+
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
 
