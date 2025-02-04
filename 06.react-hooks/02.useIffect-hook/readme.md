@@ -5,9 +5,9 @@
 
 ## useEffect takes two arguments: 
 
-> a function 
+> A callback 
 
-> an optional array of dependencies.
+> An optional array of dependencies.
 
 # Example
 
