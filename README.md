@@ -12,23 +12,23 @@
 
 - **JSX:** React uses a syntax extension called JSX, which allows you to write HTML-like code within your JavaScript files.
 
-<hr>
-
 ## Setup React App On Local Machine 
 
 ### Install Node First https://nodejs.org/en/
 
-### npm update
+### About npm
 
-> npm install -g npm@latest
+- npm : node package manager
+- npm command and version
+- npm install -g npm@latest 
 
-### 3.method using npm  vite
+### 3.setup app using npm vite
 
 ```
-npm create vite@latest
-cd tech-app 
-npm install
-npm run dev
+npm create vite@latest : create template
+cd tech-unit 
+npm install  // install react app
+npm run dev  // to run the code
 ```
 <hr>
 
