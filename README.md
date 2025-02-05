@@ -22,21 +22,6 @@
 
 > npm install -g npm@latest
 
-
-### 1.method using npm
-```
-npm init react-app tech-app
-cd tech-app
-npm start
-```
-### 2.method using npx
-
-```
-npx create-react-app tech-app
-cd tech-app
-npm start
-```
-
 ### 3.method using npm  vite
 
 ```
