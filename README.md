@@ -37,6 +37,7 @@ npm run dev  // to run the code
 React is built around the concept of components, which are self-contained UI elements that can be reused throughout your application.
 
 > function Component
+
 > class Component
 
 
