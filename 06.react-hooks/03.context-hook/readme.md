@@ -4,7 +4,7 @@
 
 <img src="./componentTree.jpg" width="70%"/>
 
-## 1.Step creacteContext()
+## 1. creacteContext()
 
 ```
 export const UserContext = React.createContext()
@@ -14,7 +14,7 @@ export const UserContext = React.createContext()
 </UserContext.Provider>
 ```
 
-## 2.step useContext() 
+## 2. useContext() 
 
 ```
 import { UserContext} from '../App'
@@ -25,7 +25,7 @@ const user = useContext(UserContext)
 
 ```
 
-## another way to use
+## 3. another way to use
 
 ```
 import { UserContext} from '../App'
