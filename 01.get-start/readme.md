@@ -1,12 +1,8 @@
-# web Component 
-
-
+# Before Start React  
 
 # React Syntax To Good Understand 
 
-```
-function(state)= App View 
-```
+> function(state)= App View 
 
 ## ES6 Feture To Update Before Start React
 
@@ -18,22 +14,6 @@ function(state)= App View
 - Modules
 - Ternary Operator
 - Spread Operator
-
-
-
-
-
-
-
-## Core In React js
-
-> Template in jsx
-
-> state and props
-
-> event handling
-
-> Thinking in Component Based Articuture .
 
 ## Template Engine 
 
