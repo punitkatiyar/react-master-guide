@@ -10,6 +10,42 @@ npm install axios
 
 https://jsonplaceholder.typicode.com/
 
+```
+import axios from 'axios'
+import React, { useEffect, useState } from 'react'
+function Posts() {
+    // step 1 : api data holding
+    const [posts, setPosts] = useState([])
+    //  step 2
+    useEffect(() => {
+        // setp 3 
+        axios.get("https://jsonplaceholder.typicode.com/posts")
+            .then(res => {
+                // console.log(res.data);
+                // send data to state
+                setPosts(res.data);
+            })
+            .catch(err => {
+                console.log(err)
+            })
+    }, [])
+    // step 4 ; map the data 
+    const list = posts.map((post) => <li key={post.id}>{post.title}</li>)
+    return (
+        <div>
+            <ol>
+                {/* print data */}
+                {list}
+            </ol>
+        </div>
+    )
+}
+export default Posts
+```
+
+
+
+
 ## 2. Create Class Component  ArticleList
 
 ```
