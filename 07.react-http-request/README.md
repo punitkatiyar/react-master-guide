@@ -1,14 +1,35 @@
 # Network Call In React ( Axios )
 
+> fetch
+
+> axiox
+
+## fetch api in javascript 
+
+```
+fetch('https://jsonplaceholder.typicode.com/posts')
+.then(response => response.json())
+.then(json => console.log(json))
+
+```
+
 ## setup axios on react app
 
 ```
 npm install axios
 ```
 
+### API Routes
 
+- get()
 
-https://jsonplaceholder.typicode.com/
+- post()
+
+- put()
+
+- delete()
+
+## 1. Get data from Api in function component 
 
 ```
 import axios from 'axios'
@@ -42,11 +63,7 @@ function Posts() {
 }
 export default Posts
 ```
-
-
-
-
-## 2. Create Class Component  ArticleList
+## 2. Get data from Api in class component 
 
 ```
 import axios from 'axios'
