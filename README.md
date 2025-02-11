@@ -8,20 +8,26 @@
 
 > Install Node First https://nodejs.org/en/
 
-### About npm
+### Basic of node and npm
 
+- node : javascript runtime enviroment
 - npm : node package manager
-- npm command and version
+
+### node and npm command list and version
+
+- node -v
+- npm -v  
 - npm install -g npm@latest 
 
-### setup app using npm vite
+### setup react app using vite (Next Generation Frontend Tooling)
 
 ```
 npm create vite@latest : create template
 cd tech-unit 
-npm install  // install react app
+npm install  // install react package
 npm run dev  // to run the code
 ```
+
 <hr>
 
 ## React Components  
