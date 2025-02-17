@@ -1,16 +1,40 @@
-# Network Call In React ( Axios )
+# HTTP ( Network Call ) Client side api request
 
 > fetch
 
 > axiox
 
+
 ## fetch api in javascript 
+
+### Syntax 
+
+```
+fetch(url, options)
+    .then(response => {
+        // Handle the response
+    })
+    .catch(error => {
+        // Handle errors
+    });
+```
+
+- url – The API or resource URL to fetch.
+
+- options (optional) – An object containing settings like method, headers, and body.
+
+- Returns a Promise that resolves to the Response object.
+
+  <hr>
+
+
+### Example 
 
 ```
 fetch('https://jsonplaceholder.typicode.com/posts')
-.then(response => response.json())
-.then(json => console.log(json))
-
+.then(response => response.json())  // Convert response to JSON
+.then(data => console.log(data))    // Handle the data
+.catch(error => console.error('Error:', error)); // Handle errors
 ```
 
 ## setup axios on react app
