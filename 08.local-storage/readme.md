@@ -1,5 +1,16 @@
 # local Storage
 
+## What is localStorage ?
+
+- localStorage is a web storage API that allows storing key-value data in the browser.
+
+- Data persists even after page reloads or closing the browser.
+
+- Limited to 5MB of storage per domain.
+
+
+
+
 ```
 import React, { useState, useEffect } from 'react';
 
