@@ -102,4 +102,6 @@ export default class Welcome extends Component {
 <Welcome test="Punit"/>
 ```
 
+-  Class components are rarely used in modern React applications since functional components with hooks provide the same features with less complexity.
+
 
