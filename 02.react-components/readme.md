@@ -1,19 +1,12 @@
 # What Is Component .
 
-**A component is a reusable piece of UI that can be composed together to create complex user interfaces. Components can be thought of as custom HTML elements that are defined by JavaScript code.**
-
-
-
+**A React component is a reusable, self-contained piece of UI that can be used to build complex user interfaces. Components are like JavaScript functions but return React elements (JSX) that describe how a section of the UI should appear.**
 <!-- <img src="component.webp"> -->
-
 ## React components are two types :
 
-> function Component
+> function Component (Recommended)
 
-> class Component
-
-<hr>
-
+> class Component (Older approach)
 
 ## React Function Component [ rfce ]
 
