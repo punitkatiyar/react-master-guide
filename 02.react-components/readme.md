@@ -6,7 +6,7 @@
 
 <!-- <img src="component.webp"> -->
 
-## React components can be two types :
+## React components are two types :
 
 > function Component
 
