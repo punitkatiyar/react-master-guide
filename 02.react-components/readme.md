@@ -8,6 +8,10 @@
 
 > class Component (Older approach)
 
+<hr>
+> https://github.com/r5n-labs/vscode-react-javascript-snippets/blob/HEAD/docs/Snippets.md
+
+
 ## React Function Component [ rfce ]
 
 ```
