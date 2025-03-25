@@ -48,7 +48,7 @@ import Hello from "./Hello"
 
 ## Inside the content in function component
 
-- {props.children}
+- props.children
 
 
 
