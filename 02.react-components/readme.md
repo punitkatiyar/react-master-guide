@@ -35,9 +35,14 @@ import Hello from "./Hello"
 ```
 
 
-## Property Binding 
+## Property Binding with primitive data type and non Primitive data Type
 
 **In React, property or prop binding refers to passing data from a parent component to a child component via props. Props are immutable, meaning they cannot be changed by the child component. This is useful when you want to pass data or event handlers to child components.**
+
+> number , string , boolen , null
+
+> array , object  
+
 
 ## Inside the content in function component
 
