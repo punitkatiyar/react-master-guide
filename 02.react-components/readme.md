@@ -1,7 +1,7 @@
-# What Is Component .
+# What Is Component.
 
 **A React component is a reusable, self-contained piece of UI that can be used to build complex user interfaces. Components are like JavaScript functions but return React elements (JSX) that describe how a section of the UI should appear.**
-<!-- <img src="component.webp"> -->
+
 ## React components are two types :
 
 > function Component (Recommended)
@@ -12,7 +12,9 @@
 > https://github.com/r5n-labs/vscode-react-javascript-snippets/blob/HEAD/docs/Snippets.md
 
 
-## React Function Component [ rfce ]
+## Create A Function Component 
+
+- create a file name Hello.jsx on src directory 
 
 ```
 import React from 'react'
@@ -21,35 +23,34 @@ function Hello() {
     <div>Hello</div>
   )
 }
-
 export default Hello
 
 ```
-## React Arrow Function Conponent [ rafc ] [ rafce ]
+
+## Use Function Component
 
 ```
-import React from 'react'
+import Hello from "./Hello"
 
-const Hello = () => {
-  return (
-    <div>Hello</div>
-  )
-}
+<Hello />
 
-export default Hello
+<Hello> </Hello>
 
 ```
+
 
 ## Property Binding 
 
+**In React, property or prop binding refers to passing data from a parent component to a child component via props. Props are immutable, meaning they cannot be changed by the child component. This is useful when you want to pass data or event handlers to child components.**
 
-**In React, property (or "prop") binding refers to passing data from a parent component to a child component via props. Props are immutable, meaning they cannot be changed by the child component. This is useful when you want to pass data or event handlers to child components.**
-
-<hr>
-
-## Nested Data Inside the component
+## Inside the content in function component
 
 - {props.children}
+
+
+
+
+
 
 # React class Component
 
