@@ -8,10 +8,6 @@
 
 > class Component (Older approach)
 
-<hr>
-> https://github.com/r5n-labs/vscode-react-javascript-snippets/blob/HEAD/docs/Snippets.md
-
-
 ## Create A Function Component 
 
 - create a file name Hello.jsx on src directory 
