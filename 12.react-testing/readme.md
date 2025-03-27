@@ -29,6 +29,14 @@ test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);
 });
 
+test('adds 1 + 2 to equal 3', () => {
+    let a=20;
+    let b=20
+expect(sum(a, b)).toBe(40);
+});
+
+
+
 ```
 
 
