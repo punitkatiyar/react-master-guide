@@ -1,8 +1,8 @@
 # HTTP ( Network Call ) Client side api request
 
-> Fetch
+- Fetch
 
-> Axiox
+- Axiox
 
 
 ## Fetch API in javascript 
