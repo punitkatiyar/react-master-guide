@@ -66,7 +66,7 @@ const Home = () => {
 export default Home;
 ```
 
-# react-router-hook
+# useNavigate Hook ( Middleware )
 
 ```
 import {useNavigate} from 'react-router-dom'
