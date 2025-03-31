@@ -1,9 +1,27 @@
 # Javascript and React Testing 
 
+- Manual Testing
+
+- Automatic Testing
+
+## Testing By developer
+
+- Unit Testing
+
+- Integrated Testing
+
+- E-2-E Testing
+
+## react Testing Tool
+
+- jest framework 
+
 > npm install --save-dev jest
 
 - @testing-library/jest-dom": "^5.15.1
+
 - @testing-library/react": "^11.2.7
+
 - @testing-library/user-event": "^12.8.3
 
 ## Create A Sun Function
