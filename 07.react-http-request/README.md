@@ -1,13 +1,13 @@
 # HTTP ( Network Call ) Client side api request
 
-> fetch
+> Fetch
 
-> axiox
+> Axiox
 
 
-## fetch api in javascript 
+## Fetch API in javascript 
 
-### Syntax 
+### Syntax Of Fetch API 
 
 ```
 fetch(url, options)
@@ -25,9 +25,6 @@ fetch(url, options)
 
 - Returns a Promise that resolves to the Response object.
 
-  <hr>
-
-
 ### Example 
 
 ```
@@ -37,7 +34,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 .catch(error => console.error('Error:', error)); // Handle errors
 ```
 
-## setup axios on react app
+## Setup Axios On React App
 
 ```
 npm install axios
