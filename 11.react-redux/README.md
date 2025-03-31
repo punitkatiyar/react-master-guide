@@ -9,7 +9,7 @@
 - Debuggable
 - Flexible
 
-## Core Redux Implimentation 
+## Core Redux Implimentation with node
 
 ```
 // import redux from 'redux';
