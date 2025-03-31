@@ -1,8 +1,10 @@
-# React Component
+# React Class Component Structure
 
 > class component
 
 > constructor()
+
+> state 
 
 > super() 
 
