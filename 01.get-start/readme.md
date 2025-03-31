@@ -1,5 +1,3 @@
-# Before Start React  
-
 # React Syntax To Good Understand 
 
 > function(state)= App View 
