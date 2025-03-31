@@ -79,4 +79,15 @@ const navigate=useNavigate()
 
 # useParems Hook
 
+```
+<Route path="/page/:id" element={<CompName/>}/>
+
+import { useParams } from 'react-router-dom'
+
+const { id } = useParams()
+
+{id}
+
+```
+
 
