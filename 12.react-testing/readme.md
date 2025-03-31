@@ -16,11 +16,6 @@
 
 > npm install --save-dev jest
 
-
-- @testing-library/jest-dom": "^5.15.1
-- @testing-library/react": "^11.2.7
-- @testing-library/user-event": "^12.8.3
-
 ## Create A Sun Function
 
 ```
@@ -33,7 +28,7 @@ module.exports = sum;
 
 ```
 
-## Create Test 
+## Testing sum function using jest
 
 ```
 // sum.test.js
