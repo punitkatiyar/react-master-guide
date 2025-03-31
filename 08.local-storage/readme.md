@@ -8,8 +8,7 @@
 
 - Limited to 5MB of storage per domain.
 
-
-
+## example 
 
 ```
 import React, { useState, useEffect } from 'react';
@@ -44,7 +43,7 @@ export default MyComponent;
 
 ```
 
-# session Storage
+## session Storage
 
 ```
 import React, { useState, useEffect } from 'react';
@@ -78,7 +77,7 @@ function MyComponent() {
 export default MyComponent;
 ``` 
 
-# cookies
+## cookies
 
 ```
 import React from 'react';
@@ -102,3 +101,6 @@ function MyComponent() {
 export default MyComponent;
 
 ```
+
+
+
