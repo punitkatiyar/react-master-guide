@@ -1,7 +1,6 @@
 #  Apply CSS In Recat Component .
 
-## Inline Style ( Example 1 )
-
+## CSS Inline Method 
 ```
 function Hello() {
     let head = {
@@ -21,43 +20,21 @@ function Hello() {
 export default Hello
 ```
 
-
-
-## CSS Stylesheet Module Component ( Example 2 )
+##  CSS External Linking In React 
 
 ```
-import React from 'react'
 import './style.css'
-function Hello (props) {
-    let className = props.logo ? 'logo':'';
-  return (
-      <h1 className={ `${className} fs`}>Stylesheet</h1>
-  )
-}
-export default Hello
+
 ```
+
+
+
+
+## React With Bootstrap
+
+- npm install npm i bootstrap@5.3.3
+
 <hr>
-
-## App.js Component 
-
-```
-import Hello from "./Hello";
-function App() {
-  return (
-    <>
-      <Hello logo={true} />
-    </>
-  );
-}
-export default App;
-
-
-
-```
-
-# React With Bootstrap
-
-**npm install npm i bootstrap@5.3.3**
 
 > import "bootstrap/dist/css/bootstrap.min.css"
 
