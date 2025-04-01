@@ -49,67 +49,9 @@ import Hello from "./Hello"
 ## Inside the content in function component
 
 - props.children
+  
+<hr>
 
-
-
-
-
-
-# React class Component
-
-> class component
-
-> constructor()
-
-> super() 
-
-> render()
-
-> user define method
-
-## React Class Component [ rcc ] [ rce ]
-
-```
-import React, { Component } from 'react'
-
-export default class Hello extends Component {
-  render() {
-    return (
-      <div>Hello</div>
-    )
-  }
-}
-```
-
-## React class Component with props and state
-
-```
-import React, { Component } from 'react'
-
-export default class Welcome extends Component {
-    constructor(props) {
-      super(props)
-    
-      this.state = {
-         user :"Guest"
-      }
-    }
-    clickHandler=()=>{
-        this.setState({user:"User Profile"})
-        // console.trace("Test The Handler");
-    }
-  render() {
-    return (
-      <div>
-        <h1>Welcome {this.props.test} {this.state.user}</h1>
-        <button onClick={this.clickHandler}>Login</button>
-    </div>
-    )
-  }
-}
-<Welcome test="Punit"/>
-```
-
--  Class components are rarely used in modern React applications since functional components with hooks provide the same features with less complexity.
+>  Class components are rarely used in modern React applications since functional components with hooks provide the same features with less complexity.
 
 
