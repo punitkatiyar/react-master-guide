@@ -12,22 +12,22 @@
 
 
 
-### Setup React App On Local Machine 
+## Setup React App On Local Machine 
 
 > Install Node First https://nodejs.org/en/
 
-#### Basic of node and npm
+## Basic of node and npm
 
 - node : javascript runtime enviroment
 - npm : node package manager
 
-#### node and npm command list and version
+## node and npm command list and version
 
 - node -v
 - npm -v  
 - npm install -g npm@latest 
 
-#### setup react app using vite (Next Generation Frontend Tooling)
+## setup react app using vite (Next Generation Frontend Tooling)
 
 ```
 npm create vite@latest : create template
