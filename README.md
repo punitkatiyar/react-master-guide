@@ -36,10 +36,9 @@ npm install  // install react package
 npm run dev  // to run the code
 ```
 
-<hr> 
+## JSX 
 
-- **JSX (JavaScript XML)** is a syntax extension used in React to describe the structure of user interface components in a more concise and intuitive way. It allows you to write HTML-like code directly in your JavaScript files, which is then transformed into JavaScript objects by the transpiler (such as Babel) before it's run by the browser.
-
+**JSX (JavaScript XML) is a syntax extension used in React to describe the structure of user interface components in a more concise and intuitive way. It allows you to write HTML-like code directly in your JavaScript files, which is then transformed into JavaScript objects by the transpiler (such as Babel) before it's run by the browser.**
 
 ```
 const element = React.createElement(
@@ -55,10 +54,8 @@ const element = React.createElement(
 const element = <h1 className="greeting">Hello, world!</h1>;
 ```
 
-<a href="root.js">React Index File</a>
 
 
-> https://medium.com/@alimubashar74/react-native-what-is-the-difference-between-functional-and-class-components-25b4920c1686
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
