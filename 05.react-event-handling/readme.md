@@ -8,8 +8,7 @@
 - onChange( )
 - onSubmit( )
 - onKeyDown( )
-- onMouseOver( )
-- onMouseOut( )
+
 
 ## Example One
 
