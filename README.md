@@ -1,6 +1,6 @@
 # React Master Guide
 
-### What Is React ?
+## What Is React ?
 
 **A JavaScript library for building user interfaces &#127942; it is declarative** 
 
