@@ -1,35 +1,36 @@
 # React Evnet Handling
 
+**In React, event handling is similar to handling events in plain JavaScript but with some syntactic differences. React events are named using camelCase instead of lowercase, and event handlers are passed as functions.**
+
+## Event List
+
+- onClick( )
+- onChange( )
+- onSubmit( )
+- onKeyDown( )
+- onMouseOver( )
+- onMouseOut( )
+
+## Example One
+
 ```
-import React from 'react'
-
-function ExampleOne() {
-
-    const handelEvent = () => {
-        alert("Hello User")
-    }
-
-    const tab = (data) => {
-        alert(`Hello User ${data}`)
-    }
-    
-    return (
-        <>
-            <h1>React Event Handling</h1>
-
-            <button onClick={() => alert('hello')}>Click Me</button>
-
-            <button onClick={handelEvent}>Click Two</button>
-
-            <button onClick={() => tab("html")}>Click HTML</button>
-
-            <button onClick={() => tab("css")}>Click Two</button>
-
-        </>
-    )
+const handelEvent = () => {
+    alert("Hello User")
 }
 
-export default ExampleOne
+const tab = (data) => {
+    alert(`Hello User ${data}`)
+}
+    
+<h1>React Event Handling</h1>
+
+<button onClick={() => alert('hello')}>Click Me</button>
+
+<button onClick={handelEvent}>Click Two</button>
+
+<button onClick={() => tab("html")}>Click HTML</button>
+
+<button onClick={() => tab("css")}>Click Two</button>
 ```
 
  ## Start erros
