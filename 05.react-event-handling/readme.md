@@ -30,16 +30,14 @@ const tab = (data) => {
 <button onClick={() => tab("html")}>Click HTML</button>
 
 <button onClick={() => tab("css")}>Click Two</button>
+
 ```
 
- ## Start erros
+ ## Basic Errors 
 
 > Invalid event handler property `onclick`. Did you mean `onClick`? Error Component Stack
 
 > Expected `onClick` listener to be a function, instead got a value of `string` type
-
-
-
 
 
 # Conditional Rendering in React  
