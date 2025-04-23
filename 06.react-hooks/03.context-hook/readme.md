@@ -2,6 +2,12 @@
 
 **The useContext hook is used in React to consume values from a context provider. It allows functional components to access the data and functions provided by a context without the need for prop drilling.**
 
+## Key Parts of React Context:
+
+- Create Context: You define a context (like setting up a "global" object).
+- Provider: Wrap parts of your app in a Provider to supply a value.
+- Consumer / useContext Hook: Anywhere inside that Provider, you can "consume" the context with the useContext hook.
+
 <img src="./componentTree.jpg" width="70%"/>
 
 <hr>
