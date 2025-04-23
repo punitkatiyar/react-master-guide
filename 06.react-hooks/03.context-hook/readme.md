@@ -4,20 +4,35 @@
 
 <img src="./componentTree.jpg" width="70%"/>
 
+<hr>
+
 **React Context lets you share state (or any data) across your entire app without having to manually pass props down at every level.
 It’s like a global variable for a part of your React component tree.**
 
+<hr>
+
 ## 1. creacteContext()
+
+**makes a new context ( container ) to store the value**
 
 ```
 export const UserContext = React.createContext()
 
+```
+
+## 2. Provider
+
+**A component that wraps parts of the app and provides the value to them**
+
+```
 <UserContext.Provider value={'Punit'}>
     <Acomp />
 </UserContext.Provider>
 ```
 
 ## 2. useContext() 
+
+**A hook to access the current value inside a component **
 
 ```
 import { UserContext} from '../App'
