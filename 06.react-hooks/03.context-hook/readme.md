@@ -15,7 +15,7 @@ It’s like a global variable for a part of your React component tree.**
 
 <hr>
 
-## 1. creacteContext()
+## 1. createContext()
 
 **makes a new context ( container ) to store the value**
 
