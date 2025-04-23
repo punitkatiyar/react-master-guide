@@ -32,7 +32,7 @@ export const UserContext = React.createContext()
 
 ## 3. useContext() 
 
-**A hook to access the current value inside a component **
+**A hook to access the current value inside a component**
 
 ```
 import { UserContext} from '../App'
