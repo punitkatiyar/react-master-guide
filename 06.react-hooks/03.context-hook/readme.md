@@ -30,7 +30,7 @@ export const UserContext = React.createContext()
 </UserContext.Provider>
 ```
 
-## 2. useContext() 
+## 3. useContext() 
 
 **A hook to access the current value inside a component **
 
@@ -43,7 +43,7 @@ const user = useContext(UserContext)
 
 ```
 
-## 3. another way to use
+## 4. another way to useContext
 
 ```
 import { UserContext} from '../App'
