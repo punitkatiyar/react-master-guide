@@ -4,6 +4,9 @@
 
 <img src="./componentTree.jpg" width="70%"/>
 
+**React Context lets you share state (or any data) across your entire app without having to manually pass props down at every level.
+It’s like a global variable for a part of your React component tree.**
+
 ## 1. creacteContext()
 
 ```
