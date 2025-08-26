@@ -45,6 +45,8 @@ test('test the sun function', () => {
 expect(sum(a, b)).toBe(40);
 });
 
+### Run Test [ npm run test ]
+
 
 
 ```
