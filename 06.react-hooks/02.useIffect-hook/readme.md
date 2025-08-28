@@ -9,7 +9,58 @@
 
 > An optional array of dependencies.
 
-# Example
+## Types of useEffect Usage
+
+### 1. Run on Every Render (no dependency array)
+
+**Runs after every render (not common in real-world, can cause performance issues).**
+
+```
+useEffect(() => {
+  console.log("Component rendered!");
+});
+
+```
+
+### 2. Run Only Once (on Mount)
+
+**Runs only once, useful for API calls, event listeners, etc.**
+
+```
+useEffect(() => {
+  console.log("Component mounted!");
+}, []);
+
+```
+
+### 3. Run When Dependencies Change
+
+**Runs only when count value changes.**
+
+```
+useEffect(() => {
+  console.log("Count updated:", count);
+}, [count]);
+
+```
+### 4. Cleanup in useEffect
+
+**Cleanup runs when component unmounts or before running the effect again.**
+
+```
+useEffect(() => {
+  const timer = setInterval(() => {
+    console.log("Running interval...");
+  }, 1000);
+
+  return () => {
+    clearInterval(timer); // cleanup
+    console.log("Interval cleared!");
+  };
+}, []);
+```
+
+## 1. Example 
 
 ```
 import React, { useState, useEffect } from 'react';
