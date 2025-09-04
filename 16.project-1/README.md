@@ -11,7 +11,7 @@
 
 ## project setup
 
-> npx create-react-app crud-app
+> npm create vite@latest
 
 > npm i react-router-dom@6
 
