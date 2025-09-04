@@ -13,9 +13,9 @@
 
 > npm create vite@latest
 
-> npm i react-router-dom@6
+> npm i react-router-dom@7
 
-> npm i bootstrap@5.3.3
+> npm i bootstrap@5.3.8
 
 > npm i axios
 
