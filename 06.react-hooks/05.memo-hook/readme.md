@@ -1,3 +1,5 @@
+# useMemo 
+
 **The memo hook in React is used to optimize functional components by preventing unnecessary re-renders. It is similar to the React.memo() higher-order component and is particularly useful when dealing with expensive calculations or expensive rendering of components.**
 
 ```
