@@ -7,13 +7,10 @@ import React, { useState, useMemo } from 'react'
 
 function Counter() {
 	const [counterOne, setCounterOne] = useState(0)
-	
 
 	const incrementOne = () => {
 		setCounterOne(counterOne + 1)
 	}
-
-	
 
   const isEven = useMemo(() => {
     let i = 0
@@ -27,7 +24,6 @@ function Counter() {
         	<button onClick={incrementOne}>Count One - {counterOne}</button>
         	<span>{isEven ? 'Even' : 'Odd'}</span>
 		</div>
-		
 		</div>
 	)
 }
