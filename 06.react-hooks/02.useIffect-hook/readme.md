@@ -10,7 +10,7 @@ useEffect(() => {}, []);
 ```
 
 
-## useEffect takes two arguments: 
+### useEffect takes two arguments: 
 
 > A callback 
 
