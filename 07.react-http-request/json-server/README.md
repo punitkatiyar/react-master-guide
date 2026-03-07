@@ -6,7 +6,7 @@
 
 ## How To Setup JSON Server
 
-### 1. create a json file to store tha data
+### 1. create a json file to store the data
 
 ### 2. create a package
 
