@@ -48,7 +48,7 @@
 
 # useNavigate Hook ( Middleware )
 
-```
+```javascript
 import {useNavigate} from 'react-router-dom'
 
 const navigate=useNavigate()
