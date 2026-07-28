@@ -59,7 +59,7 @@ const navigate=useNavigate()
 
 # useParems Hook
 
-```
+```javascript
 <Route path="/page/:id" element={<CompName/>}/>
 
 import { useParams } from 'react-router-dom'
