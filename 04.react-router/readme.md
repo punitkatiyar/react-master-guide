@@ -23,7 +23,7 @@
 
 ## How to setup router 
 
-```
+```html
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home/>}/>
@@ -37,8 +37,7 @@
 
 ## Creating link
 
-```
-
+```html
   <ul>
       <li><NavLink to="/">Home</NavLink></li>
       <li><NavLink to="/page">Page</NavLink></li>
