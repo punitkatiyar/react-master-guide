@@ -39,7 +39,7 @@
 
 ### Example 1 
 
-```
+```javascript
 const handelInput = (e) => {
   setUser(e.target.value)
 }
