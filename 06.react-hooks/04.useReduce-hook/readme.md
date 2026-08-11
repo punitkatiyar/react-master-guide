@@ -20,7 +20,6 @@ User Action
 const [state, dispatch] = useReducer(reducer, initialState);
 ```
 
-```
 1. state
 
 Current state.
@@ -32,7 +31,6 @@ Function used to send an action.
 3. reducer
 
 Function responsible for calculating the next state.
-```
 
 
 
