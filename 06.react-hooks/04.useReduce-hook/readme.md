@@ -15,6 +15,19 @@
 - Event handling
 - Props
 
+## Learning Objectives
+
+- Understand why useReducer() exists
+- Create reducers and actions
+- Manage complex component state
+- Handle multiple related state transitions
+- Design reusable reducer logic
+- Combine useReducer() with Context API
+- Build scalable state management
+- Understand dispatch and reducer execution
+- Optimize reducer-based applications
+- Understand important React internals related to reducer state updates 
+
 
 
 
