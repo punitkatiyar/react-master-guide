@@ -14,6 +14,12 @@ User Action
  React Re-render
 ```
 
+## Syntax
+
+```javasctipt
+const [state, dispatch] = useReducer(reducer, initialState);
+```
+
 
 
 ## Prerequisites
