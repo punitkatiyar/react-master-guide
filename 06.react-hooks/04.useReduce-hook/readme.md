@@ -26,6 +26,8 @@ const [state, dispatch] = useReducer(reducer, initialState);
 
 3. **reducer :** Function responsible for calculating the next state.
 
+4. **initialState :**
+
 
 
 ## Prerequisites
