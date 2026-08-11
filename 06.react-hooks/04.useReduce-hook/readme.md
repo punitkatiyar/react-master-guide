@@ -2,6 +2,25 @@
 
 **The useReducer hook is used in React to manage complex state and state transitions in a more predictable and manageable way. It is an alternative to using the useState hook for managing state, particularly when the state logic becomes more intricate.**
 
+## Participants should know:
+
+- JavaScript variables
+- Functions
+- Objects and arrays
+- Destructuring
+- Spread operator
+- ES6 modules
+- React components
+- useState()
+- Event handling
+- Props
+
+
+
+
+
+
+
 ## Example Simple State Action
 
 ```
