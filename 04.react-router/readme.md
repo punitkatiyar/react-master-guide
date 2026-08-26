@@ -6,7 +6,7 @@
 
 1 **npm create vite@latest**
 
-2 **npm install react-router-dom@7**
+2 **npm install react-router-dom@8**
 
 ## React Router Dom Component
 
