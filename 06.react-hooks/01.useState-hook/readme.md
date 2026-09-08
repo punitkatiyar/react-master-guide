@@ -38,6 +38,16 @@ function Test() {
 export default Test
 ```
 
+## Use cases : Boolen
+
+- Show/hide password
+- Modal
+- Sidebar
+- Dropdown
+- Mobile menu
+- Dark mode
+- Loading indicator
+
 
 
 
