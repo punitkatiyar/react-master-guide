@@ -38,7 +38,7 @@ function Test() {
 export default Test
 ```
 
-## Use cases : Boolen
+## Updating Boolean State
 
 - Show/hide password
 - Modal
@@ -47,6 +47,32 @@ export default Test
 - Mobile menu
 - Dark mode
 - Loading indicator
+
+## State and Input Fields
+
+```jsx
+import { useState } from "react";
+
+function Test() {
+    const [name, setName] = useState("");
+
+    return (
+        <div>
+            <input
+                type="text"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+            />
+
+            <h2>Hello {name}</h2>
+        </div>
+    )
+}
+
+export default Test
+
+
+```
 
 
 
