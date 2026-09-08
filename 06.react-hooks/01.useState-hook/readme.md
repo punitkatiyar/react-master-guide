@@ -7,7 +7,18 @@
 ```
   import React,{useState} from 'react'
   const [count,setCount]=useState(0)
+
+useState(0)
+    ↓
+┌───────────────┐
+│ Current Value │ → count
+│ Update Value  │ → setCount
+└───────────────┘
 ```
+
+
+
+
 <hr>
 
 - useState with primitive data type.
