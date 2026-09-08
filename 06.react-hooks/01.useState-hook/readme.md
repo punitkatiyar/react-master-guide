@@ -16,18 +16,29 @@ useState(0)
 └───────────────┘
 ```
 
+## useState with number, string, boolen, Array, Object.
+
+```js
+import { useState } from "react";
+
+function Test() {
+    const [isVisible, setIsVisible] = useState(false);
+
+    return (
+        <div>
+            <button onClick={() => setIsVisible(!isVisible)}>
+                Show / Hide
+            </button>
+
+            {isVisible && <p>Hello React!</p>}
+        </div>
+    );
+}
+
+export default Test
+```
 
 
-
-<hr>
-
-- useState with primitive data type.
-
-- useState with Array
-
-- useState with Object
-
-<hr>
 
 
 
